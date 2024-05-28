@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <main className="w-full h-auto bg-background flex flex-col lg:screen">
       <Header />
-      <div className="w-full h-full flex flex-col p-0 gap-3 lg:gridlg:pl-20 lg:gap-10 lg:grid-rows-1 lg:grid-cols-5">
-        <div className="col-span-3 relative h-56">
+      <div className="w-full h-full flex flex-col p-0 gap-3 lg:grid lg:pl-20 lg:gap-5 lg:grid-rows-1 lg:grid-cols-5">
+        <div className="col-span-3 relative h-56 lg:h-full">
           <Image className="absolute w-full h-full object-cover object-center" src="/banner.jpg" alt="unity" fill={true} />
         </div>
-        <div className="w-full col-span-2 flex flex-col gap-5 justify-center p-5 lg:p-0">
+        <div className="w-full col-span-2 flex flex-col gap-5 justify-center p-5 lg:pr-5">
           <h1 className="font-extrabold text-4xl w-full h-auto flex items-center">Kithima-Kirithiria Development Association</h1>
           <p className="text-xl font-medium w-full">
             We are a vibrant Community-Based Organization (CBO) dedicated to fostering unity 
